@@ -193,7 +193,6 @@
 				TargetAttributes = {
 					A8A8AE271CC619E4003BB3DA = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 37LK6J4LHD;
 					};
 					A8A8AE3B1CC619E4003BB3DA = {
 						CreatedOnToolsVersion = 7.2;
@@ -402,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Maptest1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rmit.Maptest1;
@@ -413,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Maptest1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rmit.Maptest1;
@@ -487,6 +488,7 @@
 				A8A8AE521CC619E4003BB3DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8A8AE531CC619E4003BB3DA /* Build configuration list for PBXNativeTarget "Maptest1Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +497,7 @@
 				A8A8AE551CC619E4003BB3DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8A8AE561CC619E4003BB3DA /* Build configuration list for PBXNativeTarget "Maptest1UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +506,7 @@
 				A8A8AE581CC619E4003BB3DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
